@@ -1,0 +1,49 @@
+body{
+	background-color: #ebd9aa;
+}
+table,tr,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: white;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#board{
+    width: 100vw;
+    height: 100vh;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	align-items: center;
+}
+
+td{
+	cursor: pointer;
+}
+
+#info{
+	font-size: 3rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#restartButton{
+	margin-top: 3rem;
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#restartButton:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
